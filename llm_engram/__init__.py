@@ -150,7 +150,7 @@ def engram_query_memory(question: str, bucket: Optional[str] = None) -> dict:
     return _request(
         "POST",
         "/v1/query",
-        json={"query": q, "bucket": bucket_name},
+        json={"query": q, "buckets": [bucket_name]},
     )
 
 
