@@ -1,6 +1,6 @@
 [project]
 name = "llm-engram"
-version = "0.1.0"
+version = "0.1.1"
 description = "Durable, explainable long-term memory for the llm CLI, powered by Engram (Lumetra)"
 readme = "README.md"
 authors = [{name = "Lumetra", email = "founders@lumetra.io"}]
